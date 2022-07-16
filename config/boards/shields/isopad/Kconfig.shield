@@ -1,0 +1,8 @@
+ #
+ # Copyright (c) 2021 Dan Thomas
+ #
+ # SPDX-License-Identifier: MIT
+ #
+
+config SHIELD_ISOPAD
+    def_bool $(shields_list_contains,isopad)
